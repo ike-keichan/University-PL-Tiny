@@ -1,5 +1,6 @@
-/*** Tiny Language ***/
+/*** Tiny Language /***
 
+/***
 stroke rectangle
 	start 100 @ 100
 	end 200 @ 150
@@ -57,3 +58,13 @@ display string
 display image
 	at 550 @ 50
 	"http://aokilab.kyoto-su.ac.jp/documents/BlackBook/images/BlackBookFrontPage335x432.jpg".
+***/
+
+fill line
+	start 250 @ 200
+	pass 290 @ 300
+	pass 310 @ 200
+	pass 350 @ 300
+	pass 370 @ 200
+	end 410 @ 300
+	color magenta.
